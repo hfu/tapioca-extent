@@ -17,13 +17,13 @@ const f = {
   type: 'Feature',
   geometry: {
     type: 'LineString',
-    coordinates: [[
+    coordinates: [
       [west, south],
       [east, south],
       [east, north],
       [west, north],
       [west, south]
-    ]]
+    ]
   },
   properties: {}
 }
