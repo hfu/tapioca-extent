@@ -28,4 +28,4 @@ const f = {
   properties: {}
 }
 
-fs.writeFileSync('extent.json', JSON.stringify(f, null, 2))
+fs.writeFileSync('extent.geojson', JSON.stringify(f, null, 2))
