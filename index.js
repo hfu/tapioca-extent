@@ -11,7 +11,7 @@ const ttl = (zxy) => {
 }
 
 const [west, north] = ttl([6, 22, 24])
-const [east, south] = ttl([6, 43, 40])
+const [east, south] = ttl([6, 42, 40])
 
 const f = {
   type: 'Feature',
